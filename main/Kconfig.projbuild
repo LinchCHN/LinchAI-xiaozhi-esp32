@@ -378,6 +378,11 @@ choice BOARD_TYPE
     config BOARD_TYPE_YUNLIAO_S3
         bool "小智云聊-S3"
         depends on IDF_TARGET_ESP32S3
+    config BOARD_TYPE_LinchAI_gc9d01
+        bool "LinchAI-gc9d01"
+        depends on IDF_TARGET_ESP32S3
+        select LV_USE_GIF
+        select LV_GIF_CACHE_DECODE_DATA
 endchoice
 
 choice ESP_S3_LCD_EV_Board_Version_TYPE
