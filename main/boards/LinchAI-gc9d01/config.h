@@ -9,7 +9,7 @@
 #define Left_Roll_Pin GPIO_NUM_15
 #define Body_Pin GPIO_NUM_6
 #define Head_Pin GPIO_NUM_16
-
+ 
 #define POWER_CHARGE_DETECT_PIN GPIO_NUM_NC               //GPIO_NUM_14
 #define POWER_ADC_UNIT ADC_UNIT_1
 #define POWER_ADC_CHANNEL ADC_CHANNEL_2
